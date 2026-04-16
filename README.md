@@ -1,68 +1,81 @@
-# 🌐 SchemeSathi
+# 🏛️ SchemeSathi – Your Companion for Government Schemes
 
-### Your Companion for Government Schemes
+> A voice-first, multilingual digital assistant that helps Indian citizens discover government schemes through intelligent voice interaction, guided questions, and smart recommendations.
+
+## ✨ Key Features
+
+| Feature | Description |
+|---------|-------------|
+| 🎙️ **Voice-First Interaction** | Speak naturally in English, Tamil, or Hindi to search schemes |
+| 🗣️ **Voice Output (TTS)** | System reads scheme details aloud in all 3 languages |
+| 🌐 **Trilingual Support** | Full UI in English (en-IN), Tamil (ta-IN), Hindi (hi-IN) |
+| 🤖 **Guided Assistant** | Chat-style Q&A flow recommending personalized schemes |
+| 🔍 **Smart Search** | Keyword-based intelligent matching across scheme data |
+| 📱 **Mobile Responsive** | Works beautifully on all screen sizes |
+| ✈️ **Offline Ready** | All data stored locally — no internet required |
+| 🏥 **Help Centers** | Nearby assistance office directory |
+
+## 🚀 Quick Start
+
+### Option 1: Python (Recommended)
+```bash
+cd c:\ag
+python -m http.server 3000
+```
+Open **http://localhost:3000** in Google Chrome.
+
+### Option 2: Direct File
+Simply double-click `index.html` to open in your browser.  
+*(Voice features require Chrome)*
+
+### Option 3: Node.js
+```bash
+npx -y serve -l 3000
+```
+
+## 🏗️ Project Structure
+
+```
+c:\ag\
+├── index.html    → Main HTML (semantic, accessible, SEO-ready)
+├── styles.css    → Premium dark-mode stylesheet with animations
+├── data.js       → 12 real government schemes in 3 languages
+├── i18n.js       → All UI strings in English, Tamil, Hindi
+├── app.js        → Core logic: voice, search, assistant, TTS
+└── README.md     → This file
+```
+
+## 🎯 Government Schemes Included (12)
+
+| Category | Schemes |
+|----------|---------|
+| 🌾 Farmer | PM-KISAN, PM Fasal Bima Yojana |
+| 🎓 Student | National Scholarship Portal, PM Vidya Lakshmi |
+| 👩 Women | Beti Bachao Beti Padhao, PM Ujjwala Yojana, Sukanya Samriddhi |
+| 🧓 Elderly | IGNOAPS Old Age Pension, Atal Pension Yojana |
+| 🏥 General | Ayushman Bharat, PM Awas Yojana, PM MUDRA Yojana |
+
+## 🎤 Voice Commands (Examples)
+
+| Language | Try Saying |
+|----------|-----------|
+| English | "farmer schemes", "education loan", "health insurance" |
+| Tamil | "விவசாயி", "கல்வி", "முதியோர்" |
+| Hindi | "किसान", "शिक्षा", "स्वास्थ्य" |
+
+## 💡 Technology
+
+- **Frontend**: Vanilla HTML5, CSS3, JavaScript (ES6+)
+- **Voice**: Web Speech API (SpeechRecognition + SpeechSynthesis)
+- **Design**: Glassmorphism, CSS animations, responsive grid
+- **Data**: All local — zero external API dependencies
+
+## 📋 Browser Requirements
+
+- **Google Chrome** (recommended) — full voice support
+- Microsoft Edge — voice support
+- Firefox/Safari — text features work, voice limited
 
 ---
 
-## 🧠 Problem
-
-Many people, especially in rural areas, struggle to access government schemes due to low awareness, language barriers, and complex platforms. Existing systems are not user-friendly and often require technical knowledge, leading to missed opportunities.
-
----
-
-## 💡 Solution
-
-**SchemeSathi** is a voice-first, multilingual web application that helps users discover government schemes easily. It provides step-by-step guidance and simplifies the process through intuitive interaction.
-
----
-
-## 🚀 Features
-
-* 🎤 Voice-based interaction (primary feature)
-* 🌍 Multilingual support (English, Tamil, Hindi)
-* 🤖 “Find My Scheme” guided question assistant
-* 📋 Clear scheme details (eligibility, benefits, steps)
-* 📶 Works in low-connectivity (offline support simulation)
-* 🎯 User-friendly and accessible design
-
----
-
-## 🛠️ Tech Stack
-
-* HTML
-* CSS
-* JavaScript
-* Browser APIs (Speech Recognition & Speech Synthesis)
-
----
-
-## 🧩 How It Works
-
-1. User speaks or enters input
-2. System processes input
-3. Matches relevant government scheme
-4. Displays results with guidance
-5. Option to use quiz-based assistant
-
----
-
-## ▶️ How to Run
-
-1. Download or clone the repository
-2. Open the project folder
-3. Open `index.html` in a browser (Chrome recommended)
-
----
-
-## 🎯 Use Case
-
-* Rural citizens
-* Students
-* Farmers
-* Women and elderly users
-
----
-
-## 🏆 Goal
-
-To make government schemes accessible, understandable, and usable for everyone through voice and guided assistance.
+**Built for Hackathon – SchemeSathi** 🇮🇳
